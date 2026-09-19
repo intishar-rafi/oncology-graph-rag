@@ -1,0 +1,23 @@
+# Render Blueprint — deploy with "New + > Blueprint" in the Render dashboard,
+# pointing at this repo. Fill in the secret values (OPENAI_API_KEY, NEO4J_*)
+# in the Render dashboard after the service is created — they are marked
+# sync: false so Render prompts for them instead of storing them in git.
+services:
+  - type: web
+    name: oncology-graphrag-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile.api
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: NEO4J_URI
+        sync: false
+      - key: NEO4J_USER
+        sync: false
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: "*"  # replace with your Lovable app's URL once deployed, e.g. https://your-app.lovable.app
+    healthCheckPath: /health

@@ -1,0 +1,460 @@
+{
+  "drugs": [
+    {
+      "name": "Alectinib",
+      "category": "ALK inhibitor",
+      "mechanism_of_action": "Alectinib is a second-generation ALK inhibitor designed to overcome resistance mutations and penetrate the blood-brain barrier."
+    },
+    {
+      "name": "Crizotinib",
+      "category": "ALK inhibitor",
+      "mechanism_of_action": "Crizotinib is a first-generation ALK inhibitor."
+    },
+    {
+      "name": "Bevacizumab",
+      "category": "Monoclonal Antibody",
+      "mechanism_of_action": "Bevacizumab neutralizes VEGFA to inhibit angiogenesis."
+    },
+    {
+      "name": "Enzalutamide",
+      "category": "Androgen Receptor Inhibitor",
+      "mechanism_of_action": "Enzalutamide binds the androgen receptor with high affinity and blocks its translocation into the nucleus."
+    },
+    {
+      "name": "Imatinib",
+      "category": "Tyrosine kinase inhibitor",
+      "mechanism_of_action": "Imatinib binds the ATP pocket of the BCR-ABL1 kinase, blocking its activity."
+    },
+    {
+      "name": "Olaparib",
+      "category": "PARP inhibitor",
+      "mechanism_of_action": "Olaparib inhibits PARP1, leading to cell death in BRCA-mutated cancers by exploiting synthetic lethality."
+    },
+    {
+      "name": "Osimertinib",
+      "category": "EGFR tyrosine kinase inhibitor",
+      "mechanism_of_action": "Osimertinib selectively inhibits mutant EGFR, including T790M resistance mutations."
+    },
+    {
+      "name": "Erlotinib",
+      "category": "EGFR tyrosine kinase inhibitor",
+      "mechanism_of_action": "Erlotinib inhibits EGFR tyrosine kinase activity."
+    },
+    {
+      "name": "Pembrolizumab",
+      "category": "immune checkpoint inhibitor",
+      "mechanism_of_action": "Pembrolizumab blocks PD-1 to restore T cell ability to attack cancer cells."
+    },
+    {
+      "name": "Rituximab",
+      "category": "Monoclonal Antibody",
+      "mechanism_of_action": "Rituximab binds to CD20 on B lymphocytes, triggering immune-mediated cell killing."
+    },
+    {
+      "name": "Trastuzumab",
+      "category": "Monoclonal Antibody",
+      "mechanism_of_action": "Binds to the extracellular domain of the HER2 receptor, blocking HER2 signaling and flagging cancer cells for immune destruction."
+    },
+    {
+      "name": "Pertuzumab",
+      "category": "Monoclonal Antibody",
+      "mechanism_of_action": "HER2-targeted antibody that blocks receptor dimerization."
+    },
+    {
+      "name": "Vemurafenib",
+      "category": "Targeted Therapy",
+      "mechanism_of_action": "Vemurafenib selectively inhibits the mutant BRAF V600E kinase."
+    }
+  ],
+  "diseases": [
+    {
+      "name": "ALK-positive non-small cell lung cancer",
+      "category": "Cancer",
+      "description": "A type of non-small cell lung cancer driven by rearrangements of the ALK gene."
+    },
+    {
+      "name": "Brain metastases in ALK-positive lung cancer",
+      "category": "Cancer complication",
+      "description": "A common complication of ALK-positive lung cancer involving the spread of cancer to the brain."
+    },
+    {
+      "name": "Metastatic colorectal cancer",
+      "category": "Cancer",
+      "description": "A type of cancer where colorectal cancer cells have spread to other parts of the body."
+    },
+    {
+      "name": "Renal cell carcinoma",
+      "category": "Cancer",
+      "description": "A type of kidney cancer that originates in the lining of the proximal convoluted tubule."
+    },
+    {
+      "name": "Pancreatic ductal adenocarcinoma",
+      "category": "Cancer",
+      "description": "A common type of pancreatic cancer that begins in the ducts of the pancreas."
+    },
+    {
+      "name": "prostate cancer",
+      "category": "Cancer",
+      "description": "A disease heavily driven by androgen receptor activity."
+    },
+    {
+      "name": "metastatic castration-resistant prostate cancer",
+      "category": "Cancer",
+      "description": "A form of prostate cancer that progresses despite low testosterone levels."
+    },
+    {
+      "name": "chronic myeloid leukemia",
+      "category": "Blood cancer",
+      "description": "A blood cancer caused by the BCR-ABL1 fusion gene."
+    },
+    {
+      "name": "gastrointestinal stromal tumors",
+      "category": "Sarcoma",
+      "description": "A sarcoma of the digestive tract frequently driven by mutations in KIT and PDGFRA."
+    },
+    {
+      "name": "BRCA-mutated ovarian cancer",
+      "category": "Cancer",
+      "description": "A type of ovarian cancer with mutations in BRCA1 or BRCA2 genes."
+    },
+    {
+      "name": "HER2-negative breast cancer with germline BRCA mutations",
+      "category": "Cancer",
+      "description": "A type of breast cancer that is HER2-negative and has germline BRCA mutations."
+    },
+    {
+      "name": "non-small cell lung cancer",
+      "category": "cancer",
+      "description": "A type of lung cancer with various subtypes, often associated with EGFR mutations."
+    },
+    {
+      "name": "EGFR-mutated NSCLC",
+      "category": "cancer",
+      "description": "A subtype of non-small cell lung cancer with mutations in the EGFR gene."
+    },
+    {
+      "name": "advanced melanoma",
+      "category": "cancer",
+      "description": "A type of skin cancer that has spread to other parts of the body."
+    },
+    {
+      "name": "non-small cell lung cancer with high PD-L1 expression",
+      "category": "cancer",
+      "description": "A lung cancer subtype characterized by high expression of PD-L1."
+    },
+    {
+      "name": "head and neck squamous cell carcinoma",
+      "category": "cancer",
+      "description": "A cancer that arises from the squamous cells in the head and neck region."
+    },
+    {
+      "name": "Diffuse large B-cell lymphoma",
+      "category": "B-cell malignancy",
+      "description": "A type of non-Hodgkin lymphoma characterized by large B cells."
+    },
+    {
+      "name": "Chronic lymphocytic leukemia",
+      "category": "B-cell malignancy",
+      "description": "A type of leukemia characterized by the accumulation of small, mature lymphocytes."
+    },
+    {
+      "name": "Non-Hodgkin lymphoma",
+      "category": "B-cell malignancy",
+      "description": "A diverse group of blood cancers that include any kind of lymphoma except Hodgkin's lymphomas."
+    },
+    {
+      "name": "HER2-positive breast cancer",
+      "category": "Cancer",
+      "description": "A type of breast cancer characterized by overexpression of the HER2 protein."
+    },
+    {
+      "name": "melanoma",
+      "category": "Skin Cancer",
+      "description": "Melanoma is the most aggressive form of skin cancer, often associated with the BRAF V600E mutation."
+    }
+  ],
+  "genes": [
+    {
+      "symbol": "ALK",
+      "name": "ALK"
+    },
+    {
+      "symbol": "VEGFA",
+      "name": "Vascular endothelial growth factor A"
+    },
+    {
+      "symbol": "AR",
+      "name": "Androgen Receptor"
+    },
+    {
+      "symbol": "BCR-ABL1",
+      "name": "BCR-ABL1 fusion gene"
+    },
+    {
+      "symbol": "KIT",
+      "name": "KIT"
+    },
+    {
+      "symbol": "PDGFRA",
+      "name": "PDGFRA"
+    },
+    {
+      "symbol": "BRCA1",
+      "name": "BRCA1"
+    },
+    {
+      "symbol": "BRCA2",
+      "name": "BRCA2"
+    },
+    {
+      "symbol": "PARP1",
+      "name": "PARP1"
+    },
+    {
+      "symbol": "EGFR",
+      "name": "epidermal growth factor receptor"
+    },
+    {
+      "symbol": "PDCD1",
+      "name": "PD-1"
+    },
+    {
+      "symbol": "CD274",
+      "name": "PD-L1"
+    },
+    {
+      "symbol": "CD20",
+      "name": "CD20"
+    },
+    {
+      "symbol": "ERBB2",
+      "name": "HER2"
+    },
+    {
+      "symbol": "BRAF",
+      "name": "B-Raf proto-oncogene"
+    }
+  ],
+  "treats": [
+    {
+      "drug": "Alectinib",
+      "disease": "ALK-positive non-small cell lung cancer"
+    },
+    {
+      "drug": "Bevacizumab",
+      "disease": "Metastatic colorectal cancer"
+    },
+    {
+      "drug": "Bevacizumab",
+      "disease": "Pancreatic ductal adenocarcinoma"
+    },
+    {
+      "drug": "Bevacizumab",
+      "disease": "Renal cell carcinoma"
+    },
+    {
+      "drug": "Enzalutamide",
+      "disease": "metastatic castration-resistant prostate cancer"
+    },
+    {
+      "drug": "Enzalutamide",
+      "disease": "prostate cancer"
+    },
+    {
+      "drug": "Imatinib",
+      "disease": "chronic myeloid leukemia"
+    },
+    {
+      "drug": "Imatinib",
+      "disease": "gastrointestinal stromal tumors"
+    },
+    {
+      "drug": "Olaparib",
+      "disease": "BRCA-mutated ovarian cancer"
+    },
+    {
+      "drug": "Olaparib",
+      "disease": "HER2-negative breast cancer with germline BRCA mutations"
+    },
+    {
+      "drug": "Osimertinib",
+      "disease": "EGFR-mutated NSCLC"
+    },
+    {
+      "drug": "Pembrolizumab",
+      "disease": "advanced melanoma"
+    },
+    {
+      "drug": "Pembrolizumab",
+      "disease": "head and neck squamous cell carcinoma"
+    },
+    {
+      "drug": "Pembrolizumab",
+      "disease": "non-small cell lung cancer with high PD-L1 expression"
+    },
+    {
+      "drug": "Rituximab",
+      "disease": "Chronic lymphocytic leukemia"
+    },
+    {
+      "drug": "Rituximab",
+      "disease": "Diffuse large B-cell lymphoma"
+    },
+    {
+      "drug": "Rituximab",
+      "disease": "Non-Hodgkin lymphoma"
+    },
+    {
+      "drug": "Trastuzumab",
+      "disease": "HER2-positive breast cancer"
+    },
+    {
+      "drug": "Vemurafenib",
+      "disease": "melanoma"
+    }
+  ],
+  "targets": [
+    {
+      "drug": "Alectinib",
+      "gene": "ALK"
+    },
+    {
+      "drug": "Bevacizumab",
+      "gene": "VEGFA"
+    },
+    {
+      "drug": "Crizotinib",
+      "gene": "ALK"
+    },
+    {
+      "drug": "Enzalutamide",
+      "gene": "AR"
+    },
+    {
+      "drug": "Erlotinib",
+      "gene": "EGFR"
+    },
+    {
+      "drug": "Imatinib",
+      "gene": "BCR-ABL1"
+    },
+    {
+      "drug": "Imatinib",
+      "gene": "KIT"
+    },
+    {
+      "drug": "Imatinib",
+      "gene": "PDGFRA"
+    },
+    {
+      "drug": "Olaparib",
+      "gene": "PARP1"
+    },
+    {
+      "drug": "Osimertinib",
+      "gene": "EGFR"
+    },
+    {
+      "drug": "Pembrolizumab",
+      "gene": "PDCD1"
+    },
+    {
+      "drug": "Pertuzumab",
+      "gene": "ERBB2"
+    },
+    {
+      "drug": "Rituximab",
+      "gene": "CD20"
+    },
+    {
+      "drug": "Trastuzumab",
+      "gene": "ERBB2"
+    },
+    {
+      "drug": "Vemurafenib",
+      "gene": "BRAF"
+    }
+  ],
+  "associated_with": [
+    {
+      "gene": "ALK",
+      "disease": "ALK-positive non-small cell lung cancer"
+    },
+    {
+      "gene": "AR",
+      "disease": "metastatic castration-resistant prostate cancer"
+    },
+    {
+      "gene": "AR",
+      "disease": "prostate cancer"
+    },
+    {
+      "gene": "BCR-ABL1",
+      "disease": "chronic myeloid leukemia"
+    },
+    {
+      "gene": "BRAF",
+      "disease": "melanoma"
+    },
+    {
+      "gene": "BRCA1",
+      "disease": "BRCA-mutated ovarian cancer"
+    },
+    {
+      "gene": "BRCA1",
+      "disease": "HER2-negative breast cancer with germline BRCA mutations"
+    },
+    {
+      "gene": "BRCA2",
+      "disease": "BRCA-mutated ovarian cancer"
+    },
+    {
+      "gene": "BRCA2",
+      "disease": "HER2-negative breast cancer with germline BRCA mutations"
+    },
+    {
+      "gene": "CD20",
+      "disease": "Chronic lymphocytic leukemia"
+    },
+    {
+      "gene": "CD20",
+      "disease": "Diffuse large B-cell lymphoma"
+    },
+    {
+      "gene": "CD20",
+      "disease": "Non-Hodgkin lymphoma"
+    },
+    {
+      "gene": "CD274",
+      "disease": "non-small cell lung cancer with high PD-L1 expression"
+    },
+    {
+      "gene": "EGFR",
+      "disease": "EGFR-mutated NSCLC"
+    },
+    {
+      "gene": "ERBB2",
+      "disease": "HER2-positive breast cancer"
+    },
+    {
+      "gene": "KIT",
+      "disease": "gastrointestinal stromal tumors"
+    },
+    {
+      "gene": "PDGFRA",
+      "disease": "gastrointestinal stromal tumors"
+    },
+    {
+      "gene": "VEGFA",
+      "disease": "Metastatic colorectal cancer"
+    },
+    {
+      "gene": "VEGFA",
+      "disease": "Pancreatic ductal adenocarcinoma"
+    },
+    {
+      "gene": "VEGFA",
+      "disease": "Renal cell carcinoma"
+    }
+  ]
+}
