@@ -58,8 +58,6 @@ python embeddings.py                # compute vector embeddings
 uvicorn api:app --reload --port 8000
 ```
 
-Open **http://localhost:8000/docs** to try it.
-
 ## Example questions
 
 - "What drugs treat HER2-positive breast cancer and what gene do they target?"
@@ -68,14 +66,14 @@ Open **http://localhost:8000/docs** to try it.
 
 ## API endpoints
 
-| Endpoint | Description |
-|---|---|
-| `POST /ask` | Ask a question, get a graph-grounded answer |
-| `GET /search` | Vector search over graph nodes |
-| `GET /graph/{entity}` | Explore an entity's neighborhood |
-| `GET /drug/{name}/profile` | Drug details |
-| `GET /disease/{name}/profile` | Disease details |
-| `GET /stats` | Graph node/relationship counts |
+| Endpoint                      | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| `POST /ask`                   | Ask a question, get a graph-grounded answer |
+| `GET /search`                 | Vector search over graph nodes              |
+| `GET /graph/{entity}`         | Explore an entity's neighborhood            |
+| `GET /drug/{name}/profile`    | Drug details                                |
+| `GET /disease/{name}/profile` | Disease details                             |
+| `GET /stats`                  | Graph node/relationship counts              |
 
 ## Project structure
 
